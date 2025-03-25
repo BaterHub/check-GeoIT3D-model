@@ -1,6 +1,5 @@
 pandas
 ipywidgets
-sys
 os
 datetime
 importlib
