@@ -51,10 +51,10 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 | `units.ts`                            | Unità geologiche                | **Obbligatorio** ✅ |
 | `descriptor.json`                     | Metadati del modello            | **Obbligatorio** ✅ |
 | `main_fault_attributes.csv`           | Attributi principali            | **Obbligatorio** ✅ |
-| `main_fault_derived_attributes.csv`   | Attributi principali            | **Obbligatorio** ✅ |
-| `main_fault_kinematics_attributes.csv`| Attributi principali            | **Obbligatorio** ✅ |
+| `main_fault_derived_attributes.csv`   | Attributi derivati              | **Obbligatorio** ✅ |
+| `main_fault_kinematics_attributes.csv`| Attributi cinematici            | **Obbligatorio** ✅ |
 | `main_horizon_attributes.csv`         | Attributi principali            | **Obbligatorio** ✅ |
-| `main_horizon_derived_attributes.csv` | Attributi principali            | **Obbligatorio** ✅ |
+| `main_horizon_derived_attributes.csv` | Attributi derivati            | **Obbligatorio** ✅ |
 | `main_unit_attributes.csv`            | Attributi principali            | **Obbligatorio** ✅ |
 
 
@@ -70,11 +70,11 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 ### 🔍 Controlli Generali (tutti i file)
 - ✔ Presenza e nomi corretti dei file  
 - ✔ Encoding UTF-8  
-- ✔ Terminazioni linea (LF)  
+- ✔ Terminazioni linea (LF/CRLF)
 
 ### 📊 File CSV
 - 🧩 Struttura colonne conforme  
-- 🔢 Tipi di dati corretti (numerici/booleani)  
+- 🔢 Tipi di dati corretti (numerici/booleani/stringhe)  
 - 🏷️ Codici validi (tabelle dominio)  
 - 🔗 Consistenza ID tra file correlati  
 
