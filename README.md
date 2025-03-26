@@ -43,14 +43,20 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 
 ## 📁 File Richiesti
 
-| File                          | Descrizione                     | Stato       |
-|-------------------------------|---------------------------------|-------------|
-| `dem.ts`                      | Modello digitale di elevazione  | **Obbligatorio** ✅ |
-| `faults.ts`                   | Superfici di faglia             | **Obbligatorio** ✅ |
-| `horizons.ts`                 | Superfici geologiche            | **Obbligatorio** ✅ |
-| `units.ts`                    | Unità geologiche                | **Obbligatorio** ✅ |
-| `descriptor.json`             | Metadati del modello            | **Obbligatorio** ✅ |
-| `main_*_attributes.csv`       | Attributi principali (7 file)   | **Obbligatorio** ✅ |
+| File                                  | Descrizione                     | Stato                |
+|---------------------------------------|---------------------------------|----------------------|
+| `dem.ts`                              | Modello digitale di elevazione  | **Obbligatorio** ✅ |
+| `faults.ts`                           | Superfici di faglia             | **Obbligatorio** ✅ |
+| `horizons.ts`                         | Superfici geologiche            | **Obbligatorio** ✅ |
+| `units.ts`                            | Unità geologiche                | **Obbligatorio** ✅ |
+| `descriptor.json`                     | Metadati del modello            | **Obbligatorio** ✅ |
+| `main_fault_attributes.csv`           | Attributi principali            | **Obbligatorio** ✅ |
+| `main_fault_derived_attributes.csv`   | Attributi principali            | **Obbligatorio** ✅ |
+| `main_fault_kinematics_attributes.csv`| Attributi principali            | **Obbligatorio** ✅ |
+| `main_horizon_attributes.csv`         | Attributi principali            | **Obbligatorio** ✅ |
+| `main_horizon_derived_attributes.csv` | Attributi principali            | **Obbligatorio** ✅ |
+| `main_unit_attributes.csv`            | Attributi principali            | **Obbligatorio** ✅ |
+
 
 ## ✅ Cosa Verifica
 
