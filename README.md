@@ -13,7 +13,7 @@
 
 > Strumento di validazione per modelli geologici 3D compatibili con **GeoIT3D Web Viewer*
 
-Il notebook `chk3D` è progettato per verificare la presenza e la validità dei file necessari per il caricamento dei modelli geologici 3D in formato GOCAD e CSV secondo le specifiche del visualizzatore web GeoIT3D* di ISPRA - Servizio Geologico d'Italia.
+Il notebook `chk3D` è progettato per verificare la presenza e la validità dei file necessari per il caricamento dei modelli geologici 3D in formato GOCAD e CSV secondo le specifiche del visualizzatore web GeoIT3D di ISPRA - Servizio Geologico d'Italia.
 
 ### Obiettivi Principali
 
@@ -84,6 +84,8 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 - 📦 Struttura metadati corretta  
 
 ## 🚀 Utilizzo su colab
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BaterHub/check-GeoIT3D-model/blob/main/chk_3D.ipynb)
 
 1. **Apertura notebook**:
     Clicca sul badge "Open in Colab" per aprire il notebook
