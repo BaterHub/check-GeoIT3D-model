@@ -10,7 +10,7 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 
 - Verificare la struttura dei file
 - Controllare la formattazione dei dati
-- Garantire la coerenza dei dati geologici 3D
+- Garantire la coerenza dei dati geologici 3D secondo il formato dati del web-viewer GeoIT3D
 
 ## Struttura del Notebook
 
@@ -24,10 +24,10 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 
 ### Moduli Importati
 
-- `file_utils.py`: Verifica della presenza di file
-- `csv_validator.py`: Validazione della struttura e del contenuto dei file CSV
-- `ts_validator.py`: Analisi e validazione dei file GOCAD
-- `json_validator.py`: Validazione del file descriptor.json
+- `file_utils.py`: funzioni per la verifica della presenza dei file
+- `csv_validator.py`: funzioni per la validazione della struttura e del contenuto dei file CSV
+- `ts_validator.py`: funzioni per la validazione e l'analisi dei file GOCAD (geometrie)
+- `json_validator.py`: funzioni per la validazione del file descriptor.json
 
 ## Funzionalità Principali
 
@@ -46,7 +46,7 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 
 3. **Analisi File GOCAD**
    - Verifica delle geometrie
-   - Convalida della sintassi delle keywords
+   - Convalida della sintassi e delle keywords
 
 4. **Validazione Descriptor JSON**
    - Controllo della struttura del file descriptor.json
@@ -55,13 +55,13 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 ## Utilizzo
 
 1. Clicca sul badge "Open in Colab" per aprire il notebook
-2. Specificare il nome della cartella contenente i file del modello 3D
+2. Caricare il pacchetto dati (file) del modello 3D all'interno della cartella "cartella_files"
 3. Eseguire il notebook per ottenere il report di validazione
 
 ## Specifiche Tecniche
 
 - I file devono essere prodotti secondo le specifiche CARG per i modelli 3D
-- Tutti i file devono essere posizionati in un'unica cartella
+- Tutti i file devono essere posizionati in un'unica cartella nominata "cartella_files"
 
 ## Note
 
