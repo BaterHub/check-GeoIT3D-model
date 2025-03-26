@@ -54,7 +54,7 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 | `main_fault_derived_attributes.csv`   | Attributi derivati              | **Obbligatorio** ✅ |
 | `main_fault_kinematics_attributes.csv`| Attributi cinematici            | **Obbligatorio** ✅ |
 | `main_horizon_attributes.csv`         | Attributi principali            | **Obbligatorio** ✅ |
-| `main_horizon_derived_attributes.csv` | Attributi derivati            | **Obbligatorio** ✅ |
+| `main_horizon_derived_attributes.csv` | Attributi derivati              | **Obbligatorio** ✅ |
 | `main_unit_attributes.csv`            | Attributi principali            | **Obbligatorio** ✅ |
 
 
