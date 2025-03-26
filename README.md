@@ -11,9 +11,9 @@
 
 ## Introduzione
 
-> Strumento di validazione per modelli geologici 3D compatibili con **GeoIT3D Web Viewer**
+> Strumento di validazione per modelli geologici 3D compatibili con **GeoIT3D Web Viewer*
 
-Il notebook `chk3D` è progettato per verificare la presenza e la validità dei file necessari per il caricamento dei modelli geologici 3D in formato GOCAD e CSV secondo le specifiche del visualizzatore web GeoIT3D.
+Il notebook `chk3D` è progettato per verificare la presenza e la validità dei file necessari per il caricamento dei modelli geologici 3D in formato GOCAD e CSV secondo le specifiche del visualizzatore web GeoIT3D* di ISPRA - Servizio Geologico d'Italia.
 
 ### Obiettivi Principali
 
@@ -21,16 +21,6 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 - Controllare la formattazione dei dati
 - Garantire la coerenza dei dati geologici 3D secondo il formato dati del web-viewer GeoIT3D
 
-
-## 🚀 Come Usare
-
-### Passaggi Base
-1. **Clona il repository**:
-   ```bash
-   git clone https://github.com/BaterHub/check-GeoIT3D-model.git
-   cd check-GeoIT3D-model
-
-   ## Struttura del Notebook
 
 ### Librerie Importate
 
@@ -62,7 +52,7 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 | `descriptor.json`             | Metadati del modello            | **Obbligatorio** ✅ |
 | `main_*_attributes.csv`       | Attributi principali (7 file)   | **Obbligatorio** ✅ |
 
-## ✅ Cosa Verifichiamo
+## ✅ Cosa Verifica
 
 ## 🎯 Funzionalità
 
@@ -93,7 +83,7 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 - ⏱️ Formato datetime valido  
 - 📦 Struttura metadati corretta  
 
-## Utilizzo su colab
+## 🚀 Utilizzo su colab
 
 1. **Apertura notebook**:
     Clicca sul badge "Open in Colab" per aprire il notebook
@@ -106,9 +96,20 @@ Il notebook `chk3D` è progettato per verificare la presenza e la validità dei 
 5. **Lettura log file**:
     Al termine del RUN verrà generato un log_file all'interno della cartella_files che conterrà il report sui check eseguiti.
 
+## 🚀 Utilizzo in locale
+
+1. **Clona il repository**:
+   ```bash
+   git clone https://github.com/BaterHub/check-GeoIT3D-model.git
+   cd check-GeoIT3D-model
+2. **Preparazione files**:
+    Carica il pacchetto dati del modello 3D (file .csv, .ts e .json) all'interno della cartella "cartella_files"
+3. **Esecuzione notebook**:
+    Eseguire il RUN del notebook
+
 ## Specifiche Tecniche
 
-- I file devono essere prodotti secondo le specifiche CARG per i modelli 3D
+- I file da validare devono essere prodotti secondo le specifiche CARG per i modelli 3D
 - Tutti i file devono essere posizionati in un'unica cartella nominata "cartella_files"
 
 ## Note
